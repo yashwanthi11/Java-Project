@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {
+        "packages":["map"],
+        "mapsApiKey": "AIzaSyDLed53z9Nsv4iGNmwXtuYpRrxvStfhTs4"
+      });
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Lat', 'Long', 'Name'],
+          [16.4419,  80.6226, 'KL University'],
+          [16.5062, 80.6480, 'Vijayawada'],
+        ]);
+
+        var map = new google.visualization.Map(document.getElementById('map_div'));
+        map.draw(data, {
+          showTooltip: true,
+          showInfoWindow: true
+        });
+      }
+
+    </script>
+  </head>
+
+  <body>
+    <div id="map_div" style="width: 800px; height: 700px"></div>
+  </body>
+</html>

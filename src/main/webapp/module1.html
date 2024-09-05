@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places and Houses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .place-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .place {
+            width: 300px;
+            margin: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .place img {
+            max-width: 100%;
+            height: auto;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .place-info {
+            padding: 10px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .cost {
+            font-weight: bold;
+            color: #ff5722;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Beautiful Places and Houses</h1>
+    </header>
+
+    <div class="place-container">
+        <div class="place">
+            <img src="img/h1.jpg" alt="House 1">
+            <div class="place-info">
+                <h2>House in the Suburbs</h2>
+                <p>A beautiful house located in a peaceful suburb.</p>
+                <p class="cost">$250,000</p>
+            </div>
+        </div>
+
+        <div class="place">
+            <img src="img/h2.jpeg" alt="House 2">
+            <div class="place-info">
+                <h2>Lakeside Retreat</h2>
+                <p>A cozy cottage by the lake with stunning views.</p>
+                <p class="cost">$180,000</p>
+            </div>
+        </div>
+
+        <!-- Add more places/houses here -->
+    </div>
+</body>
+</html>

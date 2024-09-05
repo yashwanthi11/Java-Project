@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Slide Navbar</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+ <div class="main">   
+  <input type="checkbox" id="chk" aria-hidden="true">
+
+   <div class="signup">
+    <form>
+     <label for="chk" aria-hidden="true">Sign up</label>
+     <input type="text" name="uname" id="t1" placeholder="User Name" required="">
+     <input type="email" name="em" id="t2" placeholder="Email" required="">
+     <input type="password" name="pwd"id="t3" placeholder="Password" required="">
+     <button onclick="save()">Sign up</button>
+    </form>
+   </div>
+
+   <div class="login">
+    <form>
+     <label for="chk" aria-hidden="true">Login</label>
+     <input type="email" name="email" placeholder="Email" id="t2" required="">
+          <input type="password" name="pwd"id="t3" placeholder="Password" required="">
+     <button onclick="sendEmail()">Login</button>
+    </form>
+   </div>
+ </div>
+</body>
+<script src="index.js" type="text/javascript"></script>
+</html>

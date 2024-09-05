@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+     background-image: url('https://img.freepik.com/premium-photo/modern-home-with-garage-door_781958-651.jpg?w=1060');
+    text-align: center;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1 {
+    color: #fff; /* White color */
+}
+
+#accounting-form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color:#198754;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

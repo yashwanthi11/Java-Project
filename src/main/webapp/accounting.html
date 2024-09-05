@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real Estate Accounting Software</title>
+    <link rel="stylesheet" type="text/css" href="css/styleforacc.css">
+</head>
+<body>
+    <h1>Real Estate <br>Accounting Software</h1>
+    <div id="accounting-form">
+        <label for="property-name">Property Name:</label>
+        <input type="text" id="property-name" placeholder="Enter property name"><br>
+
+        <label for="income">Income:</label>
+        <input type="number" id="income" placeholder="Enter income"><br>
+
+        <label for="expenses">Expenses:</label>
+        <input type="number" id="expenses" placeholder="Enter expenses"><br>
+
+        <button onclick="calculateProfit()">Calculate Profit</button><br>
+
+        <label for="profit">Profit:</label>
+        <span id="profit-value"></span>
+    </div>
+
+    <script src="js/jsforacc.js"></script>
+</body>
+</html>
